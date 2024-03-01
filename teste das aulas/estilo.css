@@ -1,0 +1,35 @@
+body {
+    background: rgb(65, 65, 230);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tab-box {
+    flex-basis: 48%;
+    margin-top: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
